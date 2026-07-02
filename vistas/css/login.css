@@ -1,0 +1,62 @@
+/* estilos personalisados para el inicio */
+
+.login-background {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+}
+
+.login-card {
+    border-radius: 16px !important;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(16, 24, 40, 0.06) !important;
+}
+
+.brand-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #eef2f6;
+    color: #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 0 auto 15px auto;
+    font-size: 24px;
+}
+
+.input-group-text {
+    background-color: #f8fafc !important;
+    border-right: none !important;
+    color: #94a3b8 !important;
+}
+
+.form-control-custom {
+    border-left: none !important;
+    background-color: #ffffff !important;
+}
+
+.form-control-custom:focus {
+    box-shadow: none !important;
+    border-color: #dee2e6 !important;
+}
+
+/* Efecto de enfoque moderno en los inputs compuestos */
+.input-group:focus-within .input-group-text {
+    border-color: #0d6efd !important;
+    color: #0d6efd !important;
+}
+
+.input-group:focus-within .form-control-custom {
+    border-color: #0d6efd !important;
+}
+/* Botón personalizado de Google */
+.btn-google {
+    background-color: #ffffff !important;
+    border: 1px solid #d8dab0;
+    color: #374151 !important;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-google:hover {
+    background-color: #f8fafc !important;
+    border-color: #cbd5e1;
+}
